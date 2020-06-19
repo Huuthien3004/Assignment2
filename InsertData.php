@@ -11,13 +11,13 @@ list-style: none;
 </head>
 <body>
 <h1>INSERT DATA TO DATABASE</h1>
-<h2>Enter data into student table</h2>
+<h2>Enter data into customer table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li>Customer ID:</li><li><input type="text" name="Customer ID" /></li>
-<li>Customer Name:</li><li><input type="text" name="Customer Name" /></li>
-<li>Customer Phone:</li><li><input type="text" name="Customer Phone" /></li>
-<li>Address:</li><li><input type="text" name="Address" /></li>
+<li>Customer ID:</li><li><input type="text" name="customerid" /></li>
+<li>Customer Name:</li><li><input type="text" name="customername" /></li>
+<li>Customer Phone:</li><li><input type="text" name="customerphone" /></li>
+<li>Address:</li><li><input type="text" name="address" /></li>
 <li><input type="submit" /></li>
 </form>
 </ul>
